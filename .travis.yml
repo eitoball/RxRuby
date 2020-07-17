@@ -1,14 +1,14 @@
 language: ruby
 sudo: false
-dist: trusty
+dist: bionic
 cache: bundler
 rvm:
-  - 1.9.3
-  - 2.0.0
-  - 2.1.2
-  - 2.2.0
-  - 2.3.0
-  - jruby-19mode # JRuby in 1.9 mode
-  - rbx-2.6
+  - 2.4.10
+  - 2.5.8
+  - 2.6.6
+  - 2.7.1
+  - jruby-1.7.27
+  - jruby-9.1.17.0
+  - jruby-9.2.12.0
 before_install:
   - gem update bundler
